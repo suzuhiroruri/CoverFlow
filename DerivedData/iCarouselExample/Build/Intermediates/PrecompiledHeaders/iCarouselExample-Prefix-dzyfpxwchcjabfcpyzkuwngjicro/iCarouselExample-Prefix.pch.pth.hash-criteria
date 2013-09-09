@@ -1,0 +1,26 @@
+Contents of /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExample-Prefix.pch
+
+arm-apple-darwin12.4.0
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-std=gnu99
+-fobjc-arc
+-fpascal-strings
+-O0
+-DDEBUG
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+-fstrict-aliasing
+-g
+-miphoneos-version-min=3.2
+-iquote
+-iquote
+-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-F/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos
+SDK_PRODUCT_BUILD_VERSION=10B141
