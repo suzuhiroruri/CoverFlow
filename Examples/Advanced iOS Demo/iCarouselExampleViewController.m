@@ -11,7 +11,7 @@
 
 @interface iCarouselExampleViewController () <UIActionSheetDelegate>
 
-//@property (nonatomic, assign) BOOL wrap;
+@property (nonatomic, assign) BOOL wrap;
 @property (nonatomic, strong) NSMutableArray *items;
 
 @end
@@ -23,7 +23,7 @@
 //@synthesize navItem;
 //@synthesize orientationBarItem;
 //@synthesize wrapBarItem;
-//@synthesize wrap;
+@synthesize wrap;
 @synthesize items;
 
 
@@ -31,7 +31,7 @@
 {
     //set up data
     //端までいったときに最初にループするようにする
-    //wrap = YES;
+    wrap = YES;
     self.items = [NSMutableArray array];
     
     //カバーフローの画像の設定をする
@@ -287,13 +287,13 @@
     //customize carousel display
     switch (option)
     {
-        /*
+        
         case iCarouselOptionWrap:
         {
             //normally you would hard-code this to YES or NO
             return wrap;
         }
-        */
+        
         case iCarouselOptionSpacing:
         {
             //add a bit of spacing between the item views
