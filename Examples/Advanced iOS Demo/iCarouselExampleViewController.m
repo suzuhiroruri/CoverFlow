@@ -11,7 +11,7 @@
 
 @interface iCarouselExampleViewController () <UIActionSheetDelegate>
 
-@property (nonatomic, assign) BOOL wrap;
+//@property (nonatomic, assign) BOOL wrap;
 @property (nonatomic, strong) NSMutableArray *items;
 
 @end
@@ -23,7 +23,7 @@
 //@synthesize navItem;
 //@synthesize orientationBarItem;
 //@synthesize wrapBarItem;
-@synthesize wrap;
+//@synthesize wrap;
 @synthesize items;
 
 
@@ -31,7 +31,7 @@
 {
     //set up data
     //端までいったときに最初にループするようにする
-    wrap = YES;
+    //wrap = YES;
     self.items = [NSMutableArray array];
     
     //カバーフローの画像の設定をする
@@ -125,6 +125,7 @@
 }
 */
 
+/*
 - (IBAction)toggleOrientation
 {
     //carousel orientation can be animated
@@ -135,6 +136,7 @@
     //update button
    // orientationBarItem.title = carousel.vertical? @"Vertical": @"Horizontal";
 }
+*/
 
 /*
 //ループするようにするかどうかのボタンの処理
@@ -145,7 +147,7 @@
     [carousel reloadData];
 }
  */
-
+/*
 //新しいデータを挿入する
 - (IBAction)insertItem
 {
@@ -153,6 +155,7 @@
     [items insertObject:@(carousel.numberOfItems) atIndex:index];
     [carousel insertItemAtIndex:index animated:YES];
 }
+ */
 /*
 
 //データを削除する
@@ -169,7 +172,7 @@
 
 #pragma mark -
 #pragma mark UIActionSheet methods
-
+/*
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
     if (buttonIndex >= 0)
@@ -186,6 +189,7 @@
         //navItem.title = [actionSheet buttonTitleAtIndex:buttonIndex];
     }
 }
+*/
 
 #pragma mark -
 #pragma mark iCarousel methods
@@ -283,11 +287,13 @@
     //customize carousel display
     switch (option)
     {
+        /*
         case iCarouselOptionWrap:
         {
             //normally you would hard-code this to YES or NO
             return wrap;
         }
+        */
         case iCarouselOptionSpacing:
         {
             //add a bit of spacing between the item views
