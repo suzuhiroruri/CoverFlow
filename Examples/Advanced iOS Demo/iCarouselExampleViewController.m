@@ -20,9 +20,9 @@
 @implementation iCarouselExampleViewController
 
 @synthesize carousel;
-@synthesize navItem;
-@synthesize orientationBarItem;
-@synthesize wrapBarItem;
+//@synthesize navItem;
+//@synthesize orientationBarItem;
+//@synthesize wrapBarItem;
 @synthesize wrap;
 @synthesize items;
 
@@ -95,16 +95,16 @@
     
     //configure carousel
     carousel.type = iCarouselTypeCoverFlow2;
-    navItem.title = @"CoverFlow2";
+    //navItem.title = @"CoverFlow2";
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     self.carousel = nil;
-    self.navItem = nil;
-    self.orientationBarItem = nil;
-    self.wrapBarItem = nil;
+    //self.navItem = nil;
+    //self.orientationBarItem = nil;
+    //self.wrapBarItem = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -113,6 +113,7 @@
 }
 
 //カバーのアニメーションの処理のボタン
+/*
 - (IBAction)switchCarouselType
 {
     UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"Select Carousel Type"
@@ -122,6 +123,7 @@
                                               otherButtonTitles:@"Linear", @"Rotary", @"Inverted Rotary", @"Cylinder", @"Inverted Cylinder", @"Wheel", @"Inverted Wheel", @"CoverFlow", @"CoverFlow2", @"Time Machine", @"Inverted Time Machine", @"Custom", nil];
     [sheet showInView:self.view];
 }
+*/
 
 - (IBAction)toggleOrientation
 {
@@ -131,10 +133,10 @@
     [UIView commitAnimations];
     
     //update button
-    orientationBarItem.title = carousel.vertical? @"Vertical": @"Horizontal";
+   // orientationBarItem.title = carousel.vertical? @"Vertical": @"Horizontal";
 }
 
-
+/*
 //ループするようにするかどうかのボタンの処理
 - (IBAction)toggleWrap
 {
@@ -142,6 +144,7 @@
     wrapBarItem.title = wrap? @"Wrap: ON": @"Wrap: OFF";
     [carousel reloadData];
 }
+ */
 
 //新しいデータを挿入する
 - (IBAction)insertItem
@@ -178,7 +181,7 @@
         [UIView commitAnimations];
         
         //update title
-        navItem.title = [actionSheet buttonTitleAtIndex:buttonIndex];
+        //navItem.title = [actionSheet buttonTitleAtIndex:buttonIndex];
     }
 }
 

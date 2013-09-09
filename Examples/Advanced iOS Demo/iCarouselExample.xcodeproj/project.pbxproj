@@ -92,10 +92,10 @@
 		01308D9813491C3500453707 /* iCarouselExample */ = {
 			isa = PBXGroup;
 			children = (
-				0148358B13A36C3700E687AC /* iCarouselExampleViewController.m */,
 				0148358C13A36C3700E687AC /* iCarouselExampleViewController.h */,
-				0148358D13A36C3700E687AC /* iCarouselExampleAppDelegate.m */,
+				0148358B13A36C3700E687AC /* iCarouselExampleViewController.m */,
 				0148358E13A36C3700E687AC /* iCarouselExampleAppDelegate.h */,
+				0148358D13A36C3700E687AC /* iCarouselExampleAppDelegate.m */,
 				0148358F13A36C3700E687AC /* MainWindow.xib */,
 				0148359113A36C3700E687AC /* iCarouselExampleViewController.xib */,
 				B2E5E72A1461543E00EADB7A /* Resources */,

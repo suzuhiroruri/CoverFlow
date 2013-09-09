@@ -13,14 +13,14 @@
 @interface iCarouselExampleViewController : UIViewController <iCarouselDataSource, iCarouselDelegate>
 
 @property (nonatomic, strong) IBOutlet iCarousel *carousel;
-@property (nonatomic, strong) IBOutlet UINavigationItem *navItem;
-@property (nonatomic, strong) IBOutlet UIBarItem *orientationBarItem;
-@property (nonatomic, strong) IBOutlet UIBarItem *wrapBarItem;
+//@property (nonatomic, strong) IBOutlet UINavigationItem *navItem;
+//@property (nonatomic, strong) IBOutlet UIBarItem *orientationBarItem;
+//@property (nonatomic, strong) IBOutlet UIBarItem *wrapBarItem;
 
-- (IBAction)switchCarouselType;
-- (IBAction)toggleOrientation;
-- (IBAction)toggleWrap;
-- (IBAction)insertItem;
-- (IBAction)removeItem;
+//- (IBAction)switchCarouselType;
+//- (IBAction)toggleOrientation;
+//- (IBAction)toggleWrap;
+//- (IBAction)insertItem;
+//- (IBAction)removeItem;
 
 @end
