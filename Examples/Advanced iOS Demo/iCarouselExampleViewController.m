@@ -153,6 +153,7 @@
     [items insertObject:@(carousel.numberOfItems) atIndex:index];
     [carousel insertItemAtIndex:index animated:YES];
 }
+/*
 
 //データを削除する
 - (IBAction)removeItem
@@ -164,6 +165,7 @@
         [carousel removeItemAtIndex:index animated:YES];
     }
 }
+*/
 
 #pragma mark -
 #pragma mark UIActionSheet methods

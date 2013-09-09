@@ -1,394 +1,0 @@
-TiCarouselExample
-v5
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plist
-cProcessInfoPlistFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Info.plist" iCarouselExample-Info.plist
-cProcessPCH "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch.pth" iCarouselExample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleAppDelegate.o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleViewController.o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/main.o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarousel.o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../../iCarousel/iCarousel.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample" normal armv7
-cGenerateDSYMFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app.dSYM" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample"
-cCompileXIB "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/MainWindow.xib"
-cCompileXIB "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/iCarouselExampleViewController.xib"
-cCopyPNGFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/page.png" ../Resources/page.png
-cCopyPNGFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/background.png" ../Resources/background.png
-cCopyPNGFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Default-568h@2x.png" Default-568h@2x.png
-cProcessProductPackaging "/Users/newsuzukihiromasa/Library/MobileDevice/Provisioning Profiles/EA0C47AC-0540-45FD-A882-C289BDFD862D.mobileprovision" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision"
-cProcessProductPackaging "/Users/newsuzukihiromasa/Library/MobileDevice/Provisioning Profiles/EA0C47AC-0540-45FD-A882-C289BDFD862D.mobileprovision" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision"
-cTouch "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app"
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent"
-cCodeSign "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app"
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
-c0000000051BC19820000000000000110
-t1371281794
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
-c00000000512CF0E500000000000001A7
-t1361899749
-s423
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
-c00000000512CF0E500000000000001E5
-t1361899749
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000512CF0E80000000000322700
-t1361899752
-s3286784
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000512CF0E9000000000062AD10
-t1361899753
-s6466832
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000512CF0EA00000000003596B0
-t1361899754
-s3511984
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000512CF0EE00000000011BCDF0
-t1361899758
-s18599408
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../../iCarousel/iCarousel.m
-c00000000522525DE000000000000FC79
-t1378166238
-s64633
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../Resources/background.png
-c00000000522525DE0000000000001A05
-t1378166238
-s6661
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../Resources/page.png
-c00000000522525DE0000000000001DCE
-t1378166238
-s7630
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/Default-568h@2x.png
-c00000000522525DE00000000000048A2
-t1378166238
-s18594
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch.pth
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarousel.o
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExample.LinkFileList
-c00000000522D335F00000000000003B6
-t1378693983
-s950
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleAppDelegate.o
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleViewController.o
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/main.o
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app.dSYM
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Default-568h@2x.png
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Info.plist
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/PkgInfo
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plist
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/background.png
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/en.lproj/MainWindow.nib
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/en.lproj/iCarouselExampleViewController.nib
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/page.png
-t2
-s0
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/MainWindow.xib
-c00000000522525DE0000000000004055
-t1378166238
-s16469
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/iCarouselExampleViewController.xib
-c00000000522525DE00000000000061C0
-t1378166238
-s25024
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExample-Prefix.pch
-c00000000522525DE0000000000000152
-t1378166238
-s338
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleAppDelegate.m
-c00000000522525DE000000000000022D
-t1378166238
-s557
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleViewController.m
-c00000000522525DE0000000000001F7B
-t1378166238
-s8059
-
-N/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/main.m
-c00000000522525DE000000000000013D
-t1378166238
-s317
-
-N/Users/newsuzukihiromasa/Library/MobileDevice/Provisioning Profiles/EA0C47AC-0540-45FD-A882-C289BDFD862D.mobileprovision
-c0000000051DBC2130000000000001D36
-t1373356563
-s7478
-
-NiCarouselExample-Info.plist
-c00000000522525DE00000000000004D0
-t1378166238
-s1232
-
-CBuild AST from "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../../iCarousel/iCarousel.m"
-r0
-
-CBuild AST from "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleAppDelegate.m"
-r0
-
-CBuild AST from "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleViewController.m"
-r0
-
-CBuild AST from "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/main.m"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8a3c19df6addb741^e4bc8bdf6addb741^---0#1#0#--18"Check dependencies36"FA3B15B5-31BC-4E6C-A08B-FF9DB31B4A2A-
-
-CCodeSign "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app"
-s400386786.916302
-e400386787.296734
-r1
-xCodeSign
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CodeSign DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.appbbb7eae26addb741^a5f54be36addb741^---0#0#0#-19%DVTDocumentLocation2@186"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/0000000000000000^1195"CodeSign DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 8e72a3bdb14b5665b8d51cbcbab716ec47054420 "--resource-rules=/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plist" --entitlements "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app"36"9D38F74E-4872-4364-988D-0371179AE5F3-
-
-CCompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarousel.o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../../iCarousel/iCarousel.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s400386784.361424
-e400386784.855983
-r1
-xCompileC
-xDerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarousel.o
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../../iCarousel/iCarousel.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../../iCarousel/iCarousel.maebc5ce06addb741^1020dbe06addb741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/../../iCarousel/iCarousel.m0000000000000000^4691"CompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarousel.o ../../iCarousel/iCarousel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=3.2 -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-generated-files.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-own-target-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-all-target-headers.hmap" -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-project-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources/armv7" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources" "-F/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos" -include "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch" -MMD -MT dependencies -MF "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarousel.d" --serialize-diagnostics "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarousel.dia" -c "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../../iCarousel/iCarousel.m" -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarousel.o"36"2665BF93-E9B1-41B7-8FBA-C2807A4C390F-
-
-CCompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleAppDelegate.o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s400386784.360808
-e400386784.603588
-r1
-xCompileC
-xDerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleAppDelegate.o
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleAppDelegate.m44a25ce06addb741^f9829ae06addb741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/iCarouselExampleAppDelegate.m0000000000000000^4767"CompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleAppDelegate.o iCarouselExampleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=3.2 -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-generated-files.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-own-target-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-all-target-headers.hmap" -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-project-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources/armv7" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources" "-F/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos" -include "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch" -MMD -MT dependencies -MF "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleAppDelegate.d" --serialize-diagnostics "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleAppDelegate.dia" -c "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleAppDelegate.m" -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleAppDelegate.o"36"9CFCF7DB-E913-4AD0-8F32-E41B84EAC264-
-
-CCompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleViewController.o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s400386784.360832
-e400386784.677463
-r1
-xCompileC
-xDerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleViewController.o
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleViewController.m81945ce06addb741^0d6cade06addb741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/iCarouselExampleViewController.m0000000000000000^4785"CompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleViewController.o iCarouselExampleViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=3.2 -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-generated-files.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-own-target-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-all-target-headers.hmap" -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-project-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources/armv7" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources" "-F/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos" -include "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch" -MMD -MT dependencies -MF "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleViewController.d" --serialize-diagnostics "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleViewController.dia" -c "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExampleViewController.m" -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExampleViewController.o"36"5CBB166A-F797-4B87-9312-BF163C81CF59-
-
-CCompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/main.o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s400386784.360839
-e400386784.573982
-r1
-xCompileC
-xDerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/main.o
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/main.md3a05ce06addb741^28f092e06addb741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/main.m0000000000000000^4629"CompileC DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=3.2 -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-generated-files.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-own-target-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-all-target-headers.hmap" -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-project-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources/armv7" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources" "-F/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos" -include "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch" -MMD -MT dependencies -MF "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/main.dia" -c "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/main.m" -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/main.o"36"8C0A2376-2C4B-41F2-8E28-B70CABE1E5DD-
-
-CCompileXIB "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/MainWindow.xib"
-s400386785.181640
-e400386785.424055
-r1
-xCompileXIB
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/MainWindow.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compiling /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/MainWindow.xib10ad31e16addb741^1cce6ce16addb741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/en.lproj/MainWindow.xib0000000000000000^1007"CompileXIB en.lproj/MainWindow.xib    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/en.lproj/MainWindow.nib" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/MainWindow.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"A1BA38F5-14A4-4BA8-A1F7-E545981F378F-
-
-CCompileXIB "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/iCarouselExampleViewController.xib"
-s400386785.181653
-e400386786.852439
-r1
-xCompileXIB
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/iCarouselExampleViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compiling /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/iCarouselExampleViewController.xib6dab31e16addb741^0f44dae26addb741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/en.lproj/iCarouselExampleViewController.xib0000000000000000^1067"CompileXIB en.lproj/iCarouselExampleViewController.xib    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/en.lproj/iCarouselExampleViewController.nib" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/en.lproj/iCarouselExampleViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"822F3E7E-3F5A-401D-8B13-D5915B35C908-
-
-CCopyPNGFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Default-568h@2x.png" Default-568h@2x.png
-s400386785.329507
-e400386785.507594
-r1
-xCopyPNGFile
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Default-568h@2x.png
-xDefault-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"CopyPNGFile DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Default-568h@2x.png Default-568h@2x.pngc37d54e16addb741^39f181e16addb741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/Default-568h@2x.png0000000000000000^829"CopyPNGFile "DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Default-568h@2x.png" "Default-568h@2x.png"    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/Default-568h@2x.png" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Default-568h@2x.png"36"9BB8308B-F6F1-4D2F-B375-9E423F193190-
-
-CCopyPNGFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/background.png" ../Resources/background.png
-s400386785.193356
-e400386785.327999
-r1
-xCopyPNGFile
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/background.png
-x../Resources/background.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"CopyPNGFile DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/background.png ../Resources/background.png529e31e16addb741^5ef653e16addb741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/../Resources/background.png0000000000000000^831"CopyPNGFile DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/background.png ../Resources/background.png    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../Resources/background.png" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/background.png"36"615A27A8-BE2E-4605-9501-1790CD3A2DFB-
-
-CCopyPNGFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/page.png" ../Resources/page.png
-s400386785.193344
-e400386785.352399
-r1
-xCopyPNGFile
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/page.png
-x../Resources/page.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"CopyPNGFile DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/page.png ../Resources/page.pngc49731e16addb741^83355ae16addb741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/../Resources/page.png0000000000000000^807"CopyPNGFile DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/page.png ../Resources/page.png    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/../Resources/page.png" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/page.png"36"C7E23817-218D-4A2C-8F73-1EBC0C1ACAF3-
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plist
-s400386783.580940
-e400386783.598393
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
-xDerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plistee0996df6addb741^d1af99df6addb741^---0#0#0#-19%DVTDocumentLocation2@205"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plist000000000080d041^918"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plist    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app"36"E43AEACE-2246-4B22-BD33-D7EF0D753CFB-
-
-CGenerateDSYMFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app.dSYM" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample"
-s400386785.113522
-e400386785.170577
-r1
-xGenerateDSYMFile
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app.dSYM
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection179"Generate /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app.dSYM3d271de16addb741^09a92be16addb741^---0#0#0#-19%DVTDocumentLocation2@190"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app.dSYM000000000080d041^943"GenerateDSYMFile DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app.dSYM DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample" -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app.dSYM"36"B81FE6CD-ECD0-461C-861D-AAC86EFF681E-
-
-CLd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample" normal armv7
-s400386784.862945
-e400386785.106539
-r1
-xLd
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection187"Link /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample2a1cdde06addb741^56461be16addb741^---0#0#0#--1559"Ld DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample normal armv7    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk "-L/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos" "-F/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos" -filelist "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/Objects-normal/armv7/iCarouselExample.LinkFileList" -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=3.2 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/iCarouselExample"36"A600D566-3DE6-4776-B53D-5ADF2C7C5C80-
-
-CProcessInfoPlistFile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Info.plist" iCarouselExample-Info.plist
-s400386783.584416
-e400386783.600674
-r1
-xProcessInfoPlistFile
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Info.plist
-xiCarouselExample-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Process iCarouselExample-Info.plistfb2196df6addb741^16da99df6addb741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/iCarouselExample-Info.plist0000000000000000^1112"ProcessInfoPlistFile DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Info.plist iCarouselExample-Info.plist    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iCarouselExample-Info.plist -genpkginfo "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/ResourceRules.plist" -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/Info.plist"36"284D6960-E67F-40BC-944A-DE31EC85D5B3-
-
-CProcessPCH "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch.pth" iCarouselExample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s400386783.608449
-e400386784.353759
-r1
-xProcessPCH
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch.pth
-xiCarouselExample-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile iCarouselExample-Prefix.pcha81b9cdf6addb741^2e8e5ae06addb741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/iCarouselExample-Prefix.pch0000000000000000^4490"ProcessPCH DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch.pth iCarouselExample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=3.2 -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-generated-files.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-own-target-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-all-target-headers.hmap" -iquote "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample-project-headers.hmap" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources/armv7" "-I/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/DerivedSources" "-F/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos" --serialize-diagnostics "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch.dia" -c "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/iCarouselExample-Prefix.pch" -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/PrecompiledHeaders/iCarouselExample-Prefix-dzyfpxwchcjabfcpyzkuwngjicro/iCarouselExample-Prefix.pch.d"36"AC7C2E05-6BDC-47DF-A5A0-6F189416ABF0-
-
-CProcessPCH "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Index/PrecompiledHeaders/iCarouselExample-Prefix-ejregdrhcuhahyatqmoidkvjxkum_ast/iCarouselExample-Prefix.pch.pth" iCarouselExample-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging "/Users/newsuzukihiromasa/Library/MobileDevice/Provisioning Profiles/EA0C47AC-0540-45FD-A882-C289BDFD862D.mobileprovision" "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision"
-s400386786.873955
-e400386786.877743
-r1
-xProcessProductPackaging
-x/Users/newsuzukihiromasa/Library/MobileDevice/Provisioning Profiles/EA0C47AC-0540-45FD-A882-C289BDFD862D.mobileprovision
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection251"ProcessProductPackaging "/Users/newsuzukihiromasa/Library/MobileDevice/Provisioning Profiles/EA0C47AC-0540-45FD-A882-C289BDFD862D.mobileprovision" DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision09dfdfe26addb741^64b2e0e26addb741^---0#0#0#-19%DVTDocumentLocation2@210"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision0000000000000000^890"ProcessProductPackaging "/Users/newsuzukihiromasa/Library/MobileDevice/Provisioning Profiles/EA0C47AC-0540-45FD-A882-C289BDFD862D.mobileprovision" DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/newsuzukihiromasa/Library/MobileDevice/Provisioning Profiles/EA0C47AC-0540-45FD-A882-C289BDFD862D.mobileprovision" -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app/embedded.mobileprovision"36"9106FED1-9426-498F-AE51-C4DE7DF09AF8-
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent"
-s400386786.904184
-e400386786.908126
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection277"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent9e96e7e26addb741^a379e8e26addb741^---0#0#0#-19%DVTDocumentLocation2@238"file://localhost/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced%20iOS%20Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent000000000080d041^968"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Intermediates/iCarouselExample.build/Debug-iphoneos/iCarouselExample.build/iCarouselExample.xcent"36"D48DA633-34DB-4129-8B00-FD5E9C9BE4C3-
-
-CTouch "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app"
-s400386786.885952
-e400386786.895980
-r1
-xTouch
-x/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection171"Touch /Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.appebe2e2e26addb741^a25de5e26addb741^---0#0#0#--559"Touch DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app    cd "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/newsuzukihiromasa/Desktop/cocos2dx/iCarousel-master/Examples/Advanced iOS Demo/DerivedData/iCarouselExample/Build/Products/Debug-iphoneos/iCarouselExample.app"36"E83FA5F2-EF83-4DC2-AF6F-9D6A5B15F1AB-
-
