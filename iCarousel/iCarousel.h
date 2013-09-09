@@ -58,7 +58,8 @@ __MAC_OS_X_VERSION_MIN_REQUIRED >= __MAC_10_8)
 typedef NSView UIView;
 #endif
 
-
+//構造体
+//Swithボタンでアニメーションの選択をさせる割当てを行う
 typedef enum
 {
     iCarouselTypeLinear = 0,

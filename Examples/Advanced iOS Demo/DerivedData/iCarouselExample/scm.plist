@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>FoundWorkingCopyPaths</key>
-	<array/>
+	<array>
+		<string>/Users/newsuzukihiromasa/git/ios/CoverFlow</string>
+	</array>
 	<key>LastWorkingCopyScanDate</key>
-	<date>2013-09-09T02:32:43Z</date>
+	<date>2013-09-09T02:51:25Z</date>
 	<key>MissingFilePaths</key>
 	<array/>
 	<key>Version</key>

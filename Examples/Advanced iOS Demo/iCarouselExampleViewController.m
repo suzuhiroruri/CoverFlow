@@ -26,17 +26,29 @@
 @synthesize wrap;
 @synthesize items;
 
+
 - (void)setUp
 {
     //set up data
+    //端までいったときに最初にループするようにする
     wrap = YES;
     self.items = [NSMutableArray array];
+    
+    //カバーフローの画像の設定をする
     for (int i = 0; i < 1000; i++)
     {
         [items addObject:@(i)];
     }
 }
 
+
+//xibファイルからロードする
+//UIViewControllerのためのイニシャライザーである。
+//コードでUIViewControllerを作成する時に呼び出されるイニシャライザーである。
+//nibをロードできるようUIViewControllerを設定するイニシャライザーである
+
+//このメソッドが呼ばれた時点では…
+//outletやactionは設定されていない状態
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]))
@@ -46,6 +58,15 @@
     return self;
 }
 
+
+//アーカイブオブジェクトのためのイニシャライザーである。
+//nibからオブジェクトをロードする時に呼び出されるイニシャライザーである。
+//nibの中に保存されたオブジェクトはアーカイブオブジェクトである。
+
+//このメソッドが呼ばれた時点では…
+//nibからオブジェクトが取り出されている(unarchive/deserialize)過程にある
+//outletやactionは設定されていない状態
+//UIViewControllerのcontextの中で、nibからUIViewControllerが生成される
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     if ((self = [super initWithCoder:aDecoder]))
@@ -55,6 +76,7 @@
     return self;
 }
 
+//メモリを解放する
 - (void)dealloc
 {
     //it's a good idea to set these to nil here to avoid
@@ -90,6 +112,7 @@
     return YES;
 }
 
+//カバーのアニメーションの処理のボタン
 - (IBAction)switchCarouselType
 {
     UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"Select Carousel Type"
@@ -111,6 +134,8 @@
     orientationBarItem.title = carousel.vertical? @"Vertical": @"Horizontal";
 }
 
+
+//ループするようにするかどうかのボタンの処理
 - (IBAction)toggleWrap
 {
     wrap = !wrap;
@@ -118,6 +143,7 @@
     [carousel reloadData];
 }
 
+//新しいデータを挿入する
 - (IBAction)insertItem
 {
     NSInteger index = MAX(0, carousel.currentItemIndex);
@@ -125,6 +151,7 @@
     [carousel insertItemAtIndex:index animated:YES];
 }
 
+//データを削除する
 - (IBAction)removeItem
 {
     if (carousel.numberOfItems > 0)
