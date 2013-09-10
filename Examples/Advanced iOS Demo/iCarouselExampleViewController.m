@@ -20,6 +20,7 @@
 @implementation iCarouselExampleViewController
 
 @synthesize carousel;
+
 //@synthesize navItem;
 //@synthesize orientationBarItem;
 //@synthesize wrapBarItem;
@@ -34,7 +35,7 @@
     wrap = YES;
     self.items = [NSMutableArray array];
     
-    //カバーフローの画像の設定をする
+    //カバーフローの画像の数の設定をする
     for (int i = 0; i < 1000; i++)
     {
         [items addObject:@(i)];
@@ -88,7 +89,7 @@
 
 #pragma mark -
 #pragma mark View lifecycle
-
+//ビューをロードしたときに呼ばれる処理
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -98,6 +99,7 @@
     //navItem.title = @"CoverFlow2";
 }
 
+//ビューをアンロードした時に呼ばれる処理
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -107,6 +109,7 @@
     //self.wrapBarItem = nil;
 }
 
+//ランドスケープモードの対応
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return YES;
@@ -194,11 +197,14 @@
 #pragma mark -
 #pragma mark iCarousel methods
 
+//カルーセルの数を定める
 - (NSUInteger)numberOfItemsInCarousel:(iCarousel *)carousel
 {
     return [items count];
 }
 
+
+//カルーセルの設定
 - (UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSUInteger)index reusingView:(UIView *)view
 {
     UILabel *label = nil;
@@ -207,9 +213,12 @@
     if (view == nil)
     {
         view = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 200.0f, 200.0f)];
+        //イメージを取得する
         ((UIImageView *)view).image = [UIImage imageNamed:@"page.png"];
         view.contentMode = UIViewContentModeCenter;
         label = [[UILabel alloc] initWithFrame:view.bounds];
+        
+        //カルーセルの背景色を設定する
         label.backgroundColor = [UIColor clearColor];
         label.textAlignment = UITextAlignmentCenter;
         label.font = [label.font fontWithSize:50];
@@ -232,11 +241,13 @@
     return view;
 }
 
+/*
 - (NSUInteger)numberOfPlaceholdersInCarousel:(iCarousel *)carousel
 {
     //note: placeholder views are only displayed on some carousels if wrapping is disabled
     return 2;
 }
+*/
 
 - (UIView *)carousel:(iCarousel *)carousel placeholderViewAtIndex:(NSUInteger)index reusingView:(UIView *)view
 {
@@ -275,12 +286,14 @@
     return view;
 }
 
+/*
 - (CATransform3D)carousel:(iCarousel *)_carousel itemTransformForOffset:(CGFloat)offset baseTransform:(CATransform3D)transform
 {
     //implement 'flip3D' style carousel
     transform = CATransform3DRotate(transform, M_PI / 8.0f, 0.0f, 1.0f, 0.0f);
     return CATransform3DTranslate(transform, 0.0f, 0.0f, offset * carousel.itemWidth);
 }
+*/
 
 - (CGFloat)carousel:(iCarousel *)_carousel valueForOption:(iCarouselOption)option withDefault:(CGFloat)value
 {
@@ -318,6 +331,7 @@
 #pragma mark -
 #pragma mark iCarousel taps
 
+//カルーセルを選択(タップ)したときに呼ばれる処理
 - (void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index
 {
     NSNumber *item = (self.items)[index];
