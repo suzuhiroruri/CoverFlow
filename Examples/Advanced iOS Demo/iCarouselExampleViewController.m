@@ -21,9 +21,6 @@
 
 @synthesize carousel;
 
-//@synthesize navItem;
-//@synthesize orientationBarItem;
-//@synthesize wrapBarItem;
 @synthesize wrap;
 @synthesize items;
 
@@ -93,10 +90,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    //configure carousel
     carousel.type = iCarouselTypeCoverFlow2;
-    //navItem.title = @"CoverFlow2";
 }
 
 //ビューをアンロードした時に呼ばれる処理
@@ -104,9 +98,6 @@
 {
     [super viewDidUnload];
     self.carousel = nil;
-    //self.navItem = nil;
-    //self.orientationBarItem = nil;
-    //self.wrapBarItem = nil;
 }
 
 //ランドスケープモードの対応
@@ -115,84 +106,10 @@
     return YES;
 }
 
-//カバーのアニメーションの処理のボタン
-/*
-- (IBAction)switchCarouselType
-{
-    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"Select Carousel Type"
-                                                       delegate:self
-                                              cancelButtonTitle:nil
-                                         destructiveButtonTitle:nil
-                                              otherButtonTitles:@"Linear", @"Rotary", @"Inverted Rotary", @"Cylinder", @"Inverted Cylinder", @"Wheel", @"Inverted Wheel", @"CoverFlow", @"CoverFlow2", @"Time Machine", @"Inverted Time Machine", @"Custom", nil];
-    [sheet showInView:self.view];
-}
-*/
 
-/*
-- (IBAction)toggleOrientation
-{
-    //carousel orientation can be animated
-    [UIView beginAnimations:nil context:nil];
-    carousel.vertical = !carousel.vertical;
-    [UIView commitAnimations];
-    
-    //update button
-   // orientationBarItem.title = carousel.vertical? @"Vertical": @"Horizontal";
-}
-*/
-
-/*
-//ループするようにするかどうかのボタンの処理
-- (IBAction)toggleWrap
-{
-    wrap = !wrap;
-    wrapBarItem.title = wrap? @"Wrap: ON": @"Wrap: OFF";
-    [carousel reloadData];
-}
- */
-/*
-//新しいデータを挿入する
-- (IBAction)insertItem
-{
-    NSInteger index = MAX(0, carousel.currentItemIndex);
-    [items insertObject:@(carousel.numberOfItems) atIndex:index];
-    [carousel insertItemAtIndex:index animated:YES];
-}
- */
-/*
-
-//データを削除する
-- (IBAction)removeItem
-{
-    if (carousel.numberOfItems > 0)
-    {
-        NSInteger index = carousel.currentItemIndex;
-        [items removeObjectAtIndex:index];
-        [carousel removeItemAtIndex:index animated:YES];
-    }
-}
-*/
 
 #pragma mark -
 #pragma mark UIActionSheet methods
-/*
-- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
-{
-    if (buttonIndex >= 0)
-    {
-        //map button index to carousel type
-        iCarouselType type = buttonIndex;
-        
-        //carousel can smoothly animate between types
-        [UIView beginAnimations:nil context:nil];
-        carousel.type = type;
-        [UIView commitAnimations];
-        
-        //update title
-        //navItem.title = [actionSheet buttonTitleAtIndex:buttonIndex];
-    }
-}
-*/
 
 #pragma mark -
 #pragma mark iCarousel methods
@@ -241,13 +158,6 @@
     return view;
 }
 
-/*
-- (NSUInteger)numberOfPlaceholdersInCarousel:(iCarousel *)carousel
-{
-    //note: placeholder views are only displayed on some carousels if wrapping is disabled
-    return 2;
-}
-*/
 
 - (UIView *)carousel:(iCarousel *)carousel placeholderViewAtIndex:(NSUInteger)index reusingView:(UIView *)view
 {
@@ -286,14 +196,6 @@
     return view;
 }
 
-/*
-- (CATransform3D)carousel:(iCarousel *)_carousel itemTransformForOffset:(CGFloat)offset baseTransform:(CATransform3D)transform
-{
-    //implement 'flip3D' style carousel
-    transform = CATransform3DRotate(transform, M_PI / 8.0f, 0.0f, 1.0f, 0.0f);
-    return CATransform3DTranslate(transform, 0.0f, 0.0f, offset * carousel.itemWidth);
-}
-*/
 
 - (CGFloat)carousel:(iCarousel *)_carousel valueForOption:(iCarouselOption)option withDefault:(CGFloat)value
 {

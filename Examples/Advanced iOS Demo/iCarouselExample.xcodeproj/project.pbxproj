@@ -98,7 +98,6 @@
 				0148358D13A36C3700E687AC /* iCarouselExampleAppDelegate.m */,
 				0148358F13A36C3700E687AC /* MainWindow.xib */,
 				0148359113A36C3700E687AC /* iCarouselExampleViewController.xib */,
-				B2E5E72A1461543E00EADB7A /* Resources */,
 				01308D9913491C3500453707 /* Supporting Files */,
 			);
 			path = iCarouselExample;
@@ -107,6 +106,7 @@
 		01308D9913491C3500453707 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2E5E72A1461543E00EADB7A /* Resources */,
 				018AE989179D7EBA00FB7311 /* Default-568h@2x.png */,
 				0148358313A36C2000E687AC /* main.m */,
 				0148358413A36C2000E687AC /* iCarouselExample-Info.plist */,
